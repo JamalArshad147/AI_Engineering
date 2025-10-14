@@ -1,0 +1,40 @@
+1. Python:
+ 	1. Variables
+ 	2.
+ 
+ 
+2. Data Preprocessing:
+ 	Frameworks:
+ 		1. NumPy
+ 		2. Pandas
+ 		3. Matplotlib
+ 		4. Seaborn
+ 	Encoding:
+ 		1. Label Encoding
+ 		2. One-Hot Encoding
+ 		3.
+ 
+
+3. Machine Learning:
+ 	Supervised:
+ 		Regression:
+ 			1. Simple Linear Regression
+ 			2. Multiple Linear Regression
+ 			3. Polynomial Regression
+ 			4. Multivariate Linear Regression
+ 			5. Logistic Regression
+ 			6. Support Vector Regressor
+ 		Classification:
+ 			1. K-Nearest Neighbors
+ 			2. Support Vector Machine
+ 			3. Decision Tree
+ 			4. Random Forest
+ 			5. Naive Bayes
+ 	Unsupervised:
+ 		Clustering:
+ 			1. K-Means Clustering
+ 		Dimensionality Reduction:
+ 			1. Principal Component Analysis
+ 
+4. Deep Learning:
+ 
