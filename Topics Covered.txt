@@ -12,7 +12,7 @@
  	Encoding:
  		1. Label Encoding
  		2. One-Hot Encoding
- 		3.
+ 		3. 
  
 
 3. Machine Learning:
@@ -29,7 +29,6 @@
  			2. Support Vector Machine
  			3. Decision Tree
  			4. Random Forest
- 			5. Naive Bayes
  	Unsupervised:
  		Clustering:
  			1. K-Means Clustering
@@ -37,4 +36,8 @@
  			1. Principal Component Analysis
  
 4. Deep Learning:
- 
+ 	1. Artificial Neural Network
+	2. Convolutional Neural Network
+	3. Recurrent Neural Network
+5. Natural Language Processing:
+	1. 
