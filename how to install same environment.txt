@@ -1,0 +1,26 @@
+When someone on a different machine runs the conda env create command, Conda is smart enough to only read the important parts:
+
+    name: env_ai
+
+    channels: ...
+
+    dependencies: ...
+
+It sees the prefix line, recognizes it's not for its own system, and simply ignores it. Conda will then build the new environment in the other person's default Conda envs folder.
+
+## The Steps for the Other Person
+
+So, the process for them is just as simple:
+
+    They get the environment.yml file from you (via email, GitHub, USB, etc.).
+
+    They open their terminal (Anaconda Prompt).
+
+    They navigate to the directory where they saved the environment.yml file.
+
+    They run the exact same command:
+    Bash
+
+    conda env create -f environment.yml
+
+Conda will then build the env_ai environment on their computer, in their local user folder, using all the packages you listed.
