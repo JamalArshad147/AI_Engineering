@@ -1,0 +1,24 @@
+## 1. To Create "Another" Environment (with a New Name)
+
+This is the best option if you want to keep your old env_ai and create a second, new, identical one.
+
+Run this command in your Bash terminal: 'conda env create -f environment.yml -n my_new_env'
+
+    conda env create: The command to create a new environment.
+
+    -f environment.yml: Specifies which file to use as the blueprint.
+
+    -n my_new_env: Gives the new environment a different name (you can change my_new_env to anything you want).
+
+
+Note: 
+
+you must run that command in the same directory where your environment.yml file is saved.
+
+The command conda env create -f environment.yml looks for the .yml file in the directory you are currently in.
+
+If you are not in the correct directory, you can either:
+
+    Navigate to it first (e.g., cd path\to\your\directory).
+
+    Provide the full path in the command (e.g., conda env create -f C:\Users\Jamal\Downloads\environment.yml).
