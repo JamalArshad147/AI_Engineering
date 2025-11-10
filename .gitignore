@@ -1,0 +1,48 @@
+# ==========================================================
+# GIT IGNORE FILE
+# Recommended for Python projects using Streamlit/LangChain
+# ==========================================================
+# 1. Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+# 2. Distribution / packaging
+.Python
+build/
+dist/
+venv/
+*.egg-info
+*.manifest
+*.spec
+# 3. Environments
+.env # Environments variables file (crucial for API keys)
+/venv
+/env
+/ENV
+.venv
+pip-log.txt
+pip-delete-this-file.txt
+.history
+# 4. Logs and databases
+*.log
+*.sql
+*.sqlite
+/faiss_index/ # The directory where FAISS saves vector store data
+# 5. OS Generated Files
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+# 6. Python IDEs and Tools
+# Visual Studio Code
+.vscode/
+# Jupyter/IPython Notebook files
+.ipynb_checkpoints
+# Spyder
+.spyderproject
+.ropeproject
+# 7. Streamlit Specific Files
+# Streamlit generates these caches and temp files
+.streamlit/
